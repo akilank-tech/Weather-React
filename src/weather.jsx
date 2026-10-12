@@ -20,17 +20,19 @@ const Weather = () => {
         })
     }
     return (
-        <div className="bg-[green] p-8 sm:p-15 min-h-screen rounded-md">
-            <div className="bg-[lightgreen] text-[green] p-5 rounded-md sm:p-10">
+        <div className="bg-[green] p-8 sm:p-15 min-h-screen rounded-md flex items-center justify-center sm:block">
+            <div className="bg-[#66fc66] py-6 px-4 rounded-md shadow-lg sm:p-10">
+            <div className="bg-[lightgreen] text-[green] p-5 rounded-md shadow-lg sm:p-10">
                 <h1 className="text-xl font-semibold sm:text-3xl">Weather Report ⛅</h1>
                 <p className="text-[10px] mt-2 sm:text-base">I can give you a weather report about your city!</p>
                 <input value={city} onChange={handleCity} className="bg-white  border-[green] border-2 focus:outline-none outline-[green] rounded-md mt-2 p-1 text-xs sm:text-base sm:p-2 sm:mt-3" type="text" placeholder="Enter your City Name" /><br />
                 <button onClick={handleWeather} className="bg-[green] border-0 cursor-pointer text-white mt-2 text-xs p-2 rounded-md sm:text-base sm:mt-3 sm:p-3">Get Report</button>
                 <div className="mt-3">
-                    <h1 className="text-xs sm:text-2xl"><b>Weather : </b>{weather}</h1>
-                    <h1 className="text-xs sm:text-2xl"><b>Temperature : </b>{temp}</h1>
-                    <h1 className="text-xs sm:text-2xl"><b>Description : </b>{desc}</h1>
+                    <h1 className="text-xs sm:text-2xl mt-3"><b>Weather : </b>{weather}</h1>
+                    <h1 className="text-xs sm:text-2xl mt-3"><b>Temperature : </b>{temp}</h1>
+                    <h1 className="text-xs sm:text-2xl mt-3"><b>Description : </b>{desc}</h1>
                 </div>
+            </div>
             </div>
         </div>
     )
