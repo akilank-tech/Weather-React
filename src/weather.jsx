@@ -28,9 +28,9 @@ const Weather = () => {
                 <input value={city} onChange={handleCity} className="bg-white  border-[green] border-2 focus:outline-none outline-[green] rounded-md mt-2 p-1 text-xs sm:text-base sm:p-2 sm:mt-3" type="text" placeholder="Enter your City Name" /><br />
                 <button onClick={handleWeather} className="bg-[green] border-0 cursor-pointer text-white mt-2 text-xs p-2 rounded-md sm:text-base sm:mt-3 sm:p-3">Get Report</button>
                 <div className="mt-3">
-                    <h1 className="text-xl sm:text-2xl mt-2"><b>Weather : </b>{weather}</h1>
-                    <h1 className="text-xl sm:text-2xl mt-2"><b>Temperature : </b>{temp}</h1>
-                    <h1 className="text-xl sm:text-2xl mt-2"><b>Description : </b>{desc}</h1>
+                    <h1 className="text-[14px] sm:text-2xl mt-2"><b>Weather : </b>{weather}</h1>
+                    <h1 className="text-[14px] sm:text-2xl mt-2"><b>Temperature : </b>{temp}</h1>
+                    <h1 className="text-[14px] sm:text-2xl mt-2"><b>Description : </b>{desc}</h1>
                 </div>
             </div>
             </div>
