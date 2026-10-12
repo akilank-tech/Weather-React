@@ -20,7 +20,7 @@ const Weather = () => {
         })
     }
     return (
-        <div className="bg-[green] p-8 sm:p-15 min-h-screen rounded-md flex">
+        <div className="bg-[green] p-8 sm:p-15 min-h-screen rounded-md">
             <div className="bg-[lightgreen] text-[green] p-5 rounded-md sm:p-10">
                 <h1 className="text-xl font-semibold sm:text-3xl">Weather Report ⛅</h1>
                 <p className="text-[10px] mt-2 sm:text-base">I can give you a weather report about your city!</p>
